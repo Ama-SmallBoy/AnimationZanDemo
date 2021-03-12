@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AnimationZanDemo"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "Use AnimationZanDemo to realize thumb up dynamic effect."
   spec.description  = <<-DESC
     Use AnimationZanDemo to realize thumb up dynamic effect1.
