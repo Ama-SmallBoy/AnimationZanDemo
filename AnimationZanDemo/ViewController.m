@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "JHLikeButton.h"
 #import "FisrtTableViewController.h"
 #import "LikeAnimationView.h"
 #import "LikeAnimationButton.h"
@@ -84,8 +83,8 @@
 -(LikeAnimationButton *)likeAnimationButton{
     if (!_likeAnimationButton) {
         _likeAnimationButton= [[LikeAnimationButton alloc]initWithFrame:CGRectZero];
-        _likeAnimationButton.normalImage = @"like3.png";
-        _likeAnimationButton.selectedImage = @"like3.png";
+        _likeAnimationButton.normalImage = @"like3";
+        _likeAnimationButton.selectedImage = @"like3";
         _likeAnimationButton.title = @" 1 ";
         __weak typeof(self) weakSelf = self;
         _likeAnimationButton.animationComplete = ^{

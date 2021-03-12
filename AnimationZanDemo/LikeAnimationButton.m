@@ -110,7 +110,7 @@
 -(void)initImageViewAnimationImages{
     NSMutableArray * images = [NSMutableArray array];
     for (int i = 0; i<=29; i++) {
-        UIImage * image = [UIImage imageNamed:[NSString stringWithFormat:@"like%d.png",i]];
+        UIImage * image = [UIImage imageNamed:[NSString stringWithFormat:@"like%d",i]];
         [images addObject:image];
     }
     [self.imgViewBig setAnimationImages:images];
