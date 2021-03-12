@@ -10,7 +10,7 @@
 #import "FisrtTableViewController.h"
 #import "LikeAnimationView.h"
 #import "LikeAnimationButton.h"
-#import <Masonry.h>
+#import "Masonry.h"
 @interface ViewController ()
 @property(nonatomic,strong)UIImageView *imgViewBig;
 @property(nonatomic,strong)UIImageView *imgViewSmall;

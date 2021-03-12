@@ -8,7 +8,7 @@
 
 #import "LikeAnimationButton.h"
 #import "PublicConfig.h"
-#import <Masonry.h>
+#import "Masonry.h"
 
 #define kAnimationDuration 1.0
 #define kImageLeftSpace -10
