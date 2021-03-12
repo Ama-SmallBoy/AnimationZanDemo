@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Ama-SmallBoy/AnimationZanDemo.git"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "Xdf" => "zhanggaotong@xdf.cn" }
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Ama-SmallBoy/AnimationZanDemo.git", :tag => spec.version.to_s }
   spec.source_files  = ['AnimationZanDemo/AnimationZanSDK/**/*.{h,m}']
 
