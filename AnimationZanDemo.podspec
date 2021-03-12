@@ -16,6 +16,9 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  spec.resource_bundles = {
+    'AnimationZanDemo' => ['AnimationZanDemo/AnimationZanSDK/Resources/Assets/**/**/*.xcassets']
+  }
   spec.requires_arc = true
   spec.dependency "Masonry", "~> 1.1.0"
 

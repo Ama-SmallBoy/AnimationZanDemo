@@ -167,15 +167,23 @@
 			path = AnimationZanDemoUITests;
 			sourceTree = "<group>";
 		};
+		047498A525FBD38200571D64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0406BEC4241A218E00E4533B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		047C998E25FB75B600C98F5C /* AnimationZanSDK */ = {
 			isa = PBXGroup;
 			children = (
+				047498A525FBD38200571D64 /* Resources */,
 				04BA4808241A6A7B00D98975 /* LikeAnimationView.h */,
 				04BA4809241A6A7B00D98975 /* LikeAnimationView.m */,
 				04BA480B241A6FA700D98975 /* LikeAnimationButton.h */,
 				04BA480C241A6FA700D98975 /* LikeAnimationButton.m */,
 				04BA480F241A805A00D98975 /* PublicConfig.h */,
-				0406BEC4241A218E00E4533B /* Assets.xcassets */,
 			);
 			path = AnimationZanSDK;
 			sourceTree = "<group>";
