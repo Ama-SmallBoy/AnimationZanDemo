@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     Use AnimationZanDemo to realize thumb up dynamic effect1.
                    DESC
   spec.homepage     = "https://github.com/Ama-SmallBoy/AnimationZanDemo.git"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Xdf" => "zhanggaotong@xdf.cn" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Ama-SmallBoy/AnimationZanDemo.git", :tag => spec.version.to_s }
