@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Xdf" => "zhanggaotong@xdf.cn" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Ama-SmallBoy/AnimationZanDemo.git", :tag => spec.version.to_s }
-  spec.source_files  = ['AnimationZanDemo/AnimationZanSDK/**/*.{h,m}']
+  spec.source_files  = 'AnimationZanDemo/AnimationZanSDK/**/*.{h,m}'
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
