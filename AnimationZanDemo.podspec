@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #spec.public_header_files = 'Pod/Classes/**/**/**/*.h'
   #spec.prefix_header_file = 'NETeacherEmbeddedSDK/Classes/Micro/PrefixHeader.pch'
 
-  spec.source_files  = ['AnimationZanDemo/Classes/**/**/**/*.{h,m,mm}', 'AnimationZanDemo/Classes/**/**/*.{h,m,mm}', 'AnimationZanDemo/Classes/**/*.{h,m,mm}', 'AnimationZanDemo/Classes/*.{h,m,mm}']
+  spec.source_files  = ['AnimationZanDemo/AnimationZanSDK/**/**/**/*.{h,m,xcassets}']
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "AnimationZanDemo/Classes/**/*.h"

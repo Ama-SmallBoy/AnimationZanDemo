@@ -128,15 +128,11 @@
 		0406BEB7241A218B00E4533B /* AnimationZanDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04BA480F241A805A00D98975 /* PublicConfig.h */,
+				047C998E25FB75B600C98F5C /* AnimationZanSDK */,
 				0406BEB8241A218B00E4533B /* AppDelegate.h */,
 				0406BEB9241A218B00E4533B /* AppDelegate.m */,
 				0406BEBB241A218B00E4533B /* SceneDelegate.h */,
 				0406BEBC241A218B00E4533B /* SceneDelegate.m */,
-				04BA4808241A6A7B00D98975 /* LikeAnimationView.h */,
-				04BA4809241A6A7B00D98975 /* LikeAnimationView.m */,
-				04BA480B241A6FA700D98975 /* LikeAnimationButton.h */,
-				04BA480C241A6FA700D98975 /* LikeAnimationButton.m */,
 				04BA47FD241A640200D98975 /* FisrtTableViewController.h */,
 				04BA47FE241A640200D98975 /* FisrtTableViewController.m */,
 				04BA47FF241A640200D98975 /* FisrtTableViewController.xib */,
@@ -146,7 +142,6 @@
 				0406BEBE241A218B00E4533B /* ViewController.h */,
 				0406BEBF241A218B00E4533B /* ViewController.m */,
 				0406BEC1241A218B00E4533B /* Main.storyboard */,
-				0406BEC4241A218E00E4533B /* Assets.xcassets */,
 				0406BEC6241A218E00E4533B /* LaunchScreen.storyboard */,
 				0406BEC9241A218E00E4533B /* Info.plist */,
 				0406BECA241A218E00E4533B /* main.m */,
@@ -170,6 +165,19 @@
 				0406BEE1241A218E00E4533B /* Info.plist */,
 			);
 			path = AnimationZanDemoUITests;
+			sourceTree = "<group>";
+		};
+		047C998E25FB75B600C98F5C /* AnimationZanSDK */ = {
+			isa = PBXGroup;
+			children = (
+				04BA4808241A6A7B00D98975 /* LikeAnimationView.h */,
+				04BA4809241A6A7B00D98975 /* LikeAnimationView.m */,
+				04BA480B241A6FA700D98975 /* LikeAnimationButton.h */,
+				04BA480C241A6FA700D98975 /* LikeAnimationButton.m */,
+				04BA480F241A805A00D98975 /* PublicConfig.h */,
+				0406BEC4241A218E00E4533B /* Assets.xcassets */,
+			);
+			path = AnimationZanSDK;
 			sourceTree = "<group>";
 		};
 		7C1904E096442727B6DE7800 /* Pods */ = {
