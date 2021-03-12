@@ -7,7 +7,6 @@
 //
 
 #import "LikeAnimationView.h"
-#import "AppDelegate.h"
 @interface LikeAnimationView ()
 @property(nonatomic,strong)UIImageView * imgViewBig;
 @end
