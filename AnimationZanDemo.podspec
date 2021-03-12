@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    Use AnimationZanDemo to realize thumb up dynamic effect.
+    Use AnimationZanDemo to realize thumb up dynamic effect1.
                    DESC
   spec.homepage     = "https://github.com/Ama-SmallBoy/AnimationZanDemo.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Ama-SmallBoy/AnimationZanDemo.git", :tag => s.version.to_s }
+  spec.source       = { :git => "https://github.com/Ama-SmallBoy/AnimationZanDemo.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
