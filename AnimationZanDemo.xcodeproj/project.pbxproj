@@ -11,7 +11,7 @@
 		0406BEBD241A218B00E4533B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406BEBC241A218B00E4533B /* SceneDelegate.m */; };
 		0406BEC0241A218B00E4533B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406BEBF241A218B00E4533B /* ViewController.m */; };
 		0406BEC3241A218B00E4533B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406BEC1241A218B00E4533B /* Main.storyboard */; };
-		0406BEC5241A218E00E4533B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406BEC4241A218E00E4533B /* Assets.xcassets */; };
+		0406BEC5241A218E00E4533B /* AnimationZanSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406BEC4241A218E00E4533B /* AnimationZanSDK.xcassets */; };
 		0406BEC8241A218E00E4533B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406BEC6241A218E00E4533B /* LaunchScreen.storyboard */; };
 		0406BECB241A218E00E4533B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406BECA241A218E00E4533B /* main.m */; };
 		0406BED5241A218E00E4533B /* AnimationZanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406BED4241A218E00E4533B /* AnimationZanDemoTests.m */; };
@@ -51,7 +51,7 @@
 		0406BEBE241A218B00E4533B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0406BEBF241A218B00E4533B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0406BEC2241A218B00E4533B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0406BEC4241A218E00E4533B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0406BEC4241A218E00E4533B /* AnimationZanSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AnimationZanSDK.xcassets; sourceTree = "<group>"; };
 		0406BEC7241A218E00E4533B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0406BEC9241A218E00E4533B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0406BECA241A218E00E4533B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		047498A525FBD38200571D64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0406BEC4241A218E00E4533B /* Assets.xcassets */,
+				0406BEC4241A218E00E4533B /* AnimationZanSDK.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 			files = (
 				0406BEC8241A218E00E4533B /* LaunchScreen.storyboard in Resources */,
 				04BA4806241A643C00D98975 /* DemoTableViewCell.xib in Resources */,
-				0406BEC5241A218E00E4533B /* Assets.xcassets in Resources */,
+				0406BEC5241A218E00E4533B /* AnimationZanSDK.xcassets in Resources */,
 				04BA4801241A640200D98975 /* FisrtTableViewController.xib in Resources */,
 				0406BEC3241A218B00E4533B /* Main.storyboard in Resources */,
 			);
